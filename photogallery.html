@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+  crossorigin="anonymous" />
+  <style>
+    body{
+      background-color: black;
+    }
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .gallery {
+      column-count: 4;
+      --webkit-column-count: 4;
+      --moz-column-count: 4;
+      gap: 1rem;
+      padding: 4rem;
+    }
+
+    .image img {
+      height: auto;
+      width: 100%;
+    }
+
+    /* Responsive-ness for different screen-sizes */
+    @media screen and (max-width: 810px) {
+      .gallery {
+        column-count: 3;
+        --webkit-column-count: 3;
+        --moz-column-count: 3;
+      }
+    }
+
+    @media screen and (max-width: 500px) {
+      .gallery {
+        column-count: 2;
+        --webkit-column-count: 2;
+        --moz-column-count: 2;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .gallery {
+        column-count: 1;
+        --webkit-column-count: 1;
+        --moz-column-count: 1;
+      }
+    }
+
+    .parent-container {
+      width: 100%;
+      justify-content: center;
+      gap: 30px 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div>
+        <h2 class="text-center border-bottom mb-4 text-white pt-4 pb-4">GALLERY</h2>
+    </div>
+   
+</div>
+  <section class="gallery">
+    <div class="image">
+      <img
+        src="images/WhatsApp Image 2023-10-05 at 6.23.57 AM (2).jpeg"
+        alt="image" />
+    </div>
+    <div class="image">
+      <img
+        src="images/WhatsApp Image 2023-10-05 at 6.23.58 AM.jpeg"
+        alt="image" />
+    </div>
+    
+    <div class="image">
+      <img
+      src="images/WhatsApp Image 2023-10-26 at 3.37.57 AM (1).jpeg"
+      alt="image" />
+  </div>
+    <div class="image">
+      <img
+      src="images/ABOUT (3).jpeg"
+      alt="image" />
+  </div>
+    <div class="image">
+      <img
+        src="images/ABOUT (4).jpeg"
+        alt="image" />
+    </div>
+    <div class="image">
+      <img
+      src="images/ABOUT (5).jpeg"
+      alt="image" />
+  </div>
+    <div class="image">
+      <img
+        src="images/ABOUT (2).jpeg"
+        alt="image" />
+    </div>
+    <div class="image">
+      <img
+        src="images/MAIRA.jpeg"
+        alt="image" />
+    </div>
+  </section>
+</body>
+
+</html>

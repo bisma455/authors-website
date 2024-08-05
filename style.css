@@ -1,0 +1,104 @@
+body{
+   font-family: "Barlow Condensed", sans-serif;
+ }
+ .c{padding-left: 13%;
+
+ } 
+ .hfile{
+  font-size: 50px;
+  font-weight: bold;
+ }
+ .bis2{
+  background-image: url(bisma.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ }
+ 
+ .image2-2{
+ background-image: url(holly-jackson_min200.jpg);
+  border-radius: 400px;
+  width: 200px;
+ }
+ .bis{
+margin-left: 20%;
+ }
+  .home{
+   background-image: url(images/bk.avif);
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+   width: 100%;
+   
+  }
+.caption{
+   padding:40px;
+   color:black;
+   animation-duration: 0.5s;
+   animation-delay: 0.5s;
+ }
+ 
+ .imge {
+   width: 400px;
+   height: 300px;
+   object-fit: cover;/* takes the 100 % height of its container (.box div)*/
+ }
+ .conimg
+ {
+  background-image:
+  linear-gradient( rgba(117,19,93,0.73), rgba(117, 19, 93, 0.73)),
+  url('images/cta-lg.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.login{
+  width: auto;
+ margin-left: 15%;
+ margin-bottom: 90px;
+ margin-right: 15%;
+  background: #fff;;
+  border-radius: 15px ;
+}
+
+ .gallery {
+  width: 90%;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-content:center;
+  align-items: center; 
+}
+
+/* Styling Particular Image */
+.gallery-img {
+  width: 200px;
+  height: 200px;
+ }
+ .aboutimg {
+  width: 400px;
+  height: 400px;
+ }
+ .box {
+  width: 350px;
+  height: 150px;
+  margin: 10px;
+  padding: 25px;
+  border: 5px solid black;
+  display: inline-block;
+  display: flex;
+}
+.book-img{
+  width: 350px;
+  height: 150px;
+}
+.color{
+  background-color: black;
+  color: #fff;
+}
+.pa{
+  padding-top: 10%;
+}
